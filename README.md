@@ -1,8 +1,8 @@
-# 🇵🇰 Cybersecurity Companies & Job Directory — Pakistan
+# Cybersecurity Companies & Job Directory — Pakistan
 
-[![Companies Listed](https://img.shields.io/badge/Organizations-548_Total-blue.svg)](cyber_security_companies_pakistan.csv)
+[![Organizations](https://img.shields.io/badge/Organizations-548_Total-blue.svg)](cyber_security_companies_pakistan.csv)
 [![Verified Portals](https://img.shields.io/badge/Verified_Career_Portals-283_Active-green.svg)](cyber_security_companies_pakistan.csv)
-[![Red & Blue Team Scored](https://img.shields.io/badge/Domain_Scoring-Red_%26_Blue_Team-red.svg)](cyber_security_companies_pakistan.csv)
+[![Domain Scoring](https://img.shields.io/badge/Domain_Scoring-Red_%26_Blue_Team-red.svg)](cyber_security_companies_pakistan.csv)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status: Maintained](https://img.shields.io/badge/Status-Actively_Curated-success.svg)](cyber_security_companies_pakistan.csv)
 
@@ -12,20 +12,20 @@ Built specifically for cybersecurity professionals, ethical hackers, SOC analyst
 
 ---
 
-## 📑 Table of Contents
-- [Executive Overview](#-executive-overview)
-- [Dataset Architecture & Dictionary](#-dataset-architecture--dictionary)
-- [Career Specialization Matrix (Red vs. Blue Team)](#-career-specialization-matrix-red-vs-blue-team)
-- [Recruitment & Application Reality](#-recruitment--application-reality)
-- [Featured Top-Tier Cybersecurity Employers](#-featured-top-tier-cybersecurity-employers)
-- [How to Filter & Use This Dataset](#-how-to-filter--use-this-dataset)
-- [Sources & Accreditation](#-sources--accreditation)
-- [Contributing](#-contributing)
-- [License](#-license)
+## Table of Contents
+- [Executive Overview](#executive-overview)
+- [Dataset Architecture & Dictionary](#dataset-architecture--dictionary)
+- [Career Specialization Matrix (Red vs. Blue Team)](#career-specialization-matrix-red-vs-blue-team)
+- [Recruitment & Application Reality](#recruitment--application-reality)
+- [Featured Top-Tier Cybersecurity Employers](#featured-top-tier-cybersecurity-employers)
+- [How to Filter & Use This Dataset](#how-to-filter--use-this-dataset)
+- [Sources & Accreditation](#sources--accreditation)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 🚀 Executive Overview
+## Executive Overview
 
 Navigating the cybersecurity job landscape in Pakistan is notoriously fragmented. Job seekers often encounter dead job links, outdated lists, unverified email formats, or uncertainty regarding whether an IT company actually has an active offensive or defensive security unit.
 
@@ -38,7 +38,7 @@ This repository resolves that with:
 
 ---
 
-## 📊 Dataset Architecture & Dictionary
+## Dataset Architecture & Dictionary
 
 The master data file is [`cyber_security_companies_pakistan.csv`](cyber_security_companies_pakistan.csv). It contains 18 structured columns:
 
@@ -65,7 +65,7 @@ The master data file is [`cyber_security_companies_pakistan.csv`](cyber_security
 
 ---
 
-## 🎯 Career Specialization Matrix (Red vs. Blue Team)
+## Career Specialization Matrix (Red vs. Blue Team)
 
 Organizations in this directory are categorized to help candidates apply for roles matching their certifications and skill sets:
 
@@ -83,33 +83,33 @@ graph TD
     D --> D1[DevSecOps, Cloud Security, Secure Code Auditing]
 ```
 
-### 🔴 Red Teaming (Offensive Security)
+### Red Teaming (Offensive Security)
 - **Relevant Roles:** Penetration Tester, Vulnerability Researcher, Web/API AppSec Specialist, Red Team Operator, Bug Bounty Hunter, Smart Contract Auditor.
 - **Top Certifications Valued:** OSCP, eJPT, CEH Practical, Burp Suite Certified Practitioner, PNPT.
 - **How to Filter:** Set `Red Teaming Rating` = `High` (Relevance Score: 8–10).
 
-### 🔵 Blue Teaming (Defensive Security)
+### Blue Teaming (Defensive Security)
 - **Relevant Roles:** SOC Analyst (L1/L2/L3), Threat Intelligence Analyst, Incident Responder (DFIR), SIEM/SOAR Engineer, Security Architect, ISO 27001 / PCI QSA Auditor.
 - **Top Certifications Valued:** BTL1, CompTIA Security+, CySA+, Certified Threat Intelligence Analyst (CTIA), CISSP, CISA.
 - **How to Filter:** Set `Blue Teaming Rating` = `High` (Relevance Score: 8–10).
 
 ---
 
-## 📬 Recruitment & Application Reality
+## Recruitment & Application Reality
 
 Most applicants fail because they send blind cold emails to unmonitored generic addresses (`careers@...`) and receive mail delivery bounces. This dataset is engineered to prevent that:
 
 ### 1. The Portal vs. Cold Email Rule
 - **If `Careers Page Status` = `Verified Live Career Page`:**  
-  👉 **Always submit through their portal link first.** Modern tech firms (e.g., Systems Limited, 10Pearls, Arbisoft, Netsol) use Applicant Tracking Systems (ATS) like Workable, Lever, or BambooHR and do not monitor cold emails.
+  **Always submit through their portal link first.** Modern tech firms (e.g., Systems Limited, 10Pearls, Arbisoft, Netsol) use Applicant Tracking Systems (ATS) like Workable, Lever, or BambooHR and do not monitor cold emails.
 - **If `Contact Verification Status` = `Verified (Government Registry / Curated Contact)`:**  
-  👉 **Safe for direct cold outreach.** These emails (`jobs@ebryx.com`, `jobs@tranchulas.com`, `aniqa.fareed@trilliuminfosec.com`, `kashif.hassan@riskassociates.com`) are genuine, verified inboxes.
+  **Safe for direct cold outreach.** These emails (`jobs@ebryx.com`, `jobs@tranchulas.com`, `aniqa.fareed@trilliuminfosec.com`, `kashif.hassan@riskassociates.com`) are genuine, verified inboxes.
 - **If `Contact Verification Status` = `Pattern Fallback`:**  
-  👉 **Do NOT rely exclusively on email.** The address is an estimated convention (`careers@{domain}`); prioritize the web application form or contact page.
+  **Do NOT rely exclusively on email.** The address is an estimated convention (`careers@{domain}`); prioritize the web application form or contact page.
 
 ---
 
-## 🏢 Featured Top-Tier Cybersecurity Employers
+## Featured Top-Tier Cybersecurity Employers
 
 Below is a curated sample of premier cybersecurity consulting and operations centers in Pakistan:
 
@@ -131,7 +131,7 @@ Below is a curated sample of premier cybersecurity consulting and operations cen
 
 ---
 
-## 🔍 How to Filter & Use This Dataset
+## How to Filter & Use This Dataset
 
 ### In Microsoft Excel or Google Sheets:
 1. Open [`cyber_security_companies_pakistan.csv`](cyber_security_companies_pakistan.csv).
@@ -158,7 +158,7 @@ print(red_team_jobs[["Company Name", "Careers Page / Job Portal URL", "Careers /
 
 ---
 
-## 🌐 Sources & Accreditation
+## Sources & Accreditation
 
 Data was compiled, cross-verified, and enriched through authoritative sources:
 1. **Pakistan National CERT (PKCERT):** Approved Information Security Auditing Organizations.
@@ -171,7 +171,7 @@ Data was compiled, cross-verified, and enriched through authoritative sources:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Community contributions are welcome! If you know of a cybersecurity startup, corporate SecOps team, or updated HR contact email in Pakistan:
 
@@ -181,6 +181,6 @@ Community contributions are welcome! If you know of a cybersecurity startup, cor
 
 ---
 
-## 📄 License
+## License
 
 This repository and dataset are distributed under the **MIT License**. Free for personal, commercial, and research use.
