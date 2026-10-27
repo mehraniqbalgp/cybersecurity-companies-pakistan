@@ -15,3 +15,5 @@ Thumbs.db
 .idea/
 .system_generated/
 scratch/
+*.pdf
+*.txt
