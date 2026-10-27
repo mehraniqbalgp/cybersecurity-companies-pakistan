@@ -1,0 +1,17 @@
+# Python Scripts
+*.py
+*.pyc
+__pycache__/
+
+# Environments and OS files
+.env
+.venv/
+env/
+.DS_Store
+Thumbs.db
+
+# IDE and Task artifacts
+.vscode/
+.idea/
+.system_generated/
+scratch/
