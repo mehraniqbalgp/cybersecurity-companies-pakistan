@@ -1,4 +1,4 @@
-# Cybersecurity Companies & Job Directory — Pakistan
+# Cybersecurity Companies & Job Directory (Pakistan)
 
 [![Organizations](https://img.shields.io/badge/Organizations-548_Total-blue.svg)](cyber_security_companies_pakistan.csv)
 [![Verified Portals](https://img.shields.io/badge/Verified_Career_Portals-283_Active-green.svg)](cyber_security_companies_pakistan.csv)
@@ -31,7 +31,7 @@ Navigating the cybersecurity job landscape in Pakistan is notoriously fragmented
 
 This repository resolves that with:
 - **548 Unique Companies:** Spanning Islamabad, Lahore, Karachi, Rawalpindi, Peshawar, Faisalabad, and Remote.
-- **Scored Career Relevancy (1–10):** Independent Red Teaming (Offensive) and Blue Teaming (Defensive) ratings for every firm.
+- **Scored Career Relevancy (1-10):** Independent Red Teaming (Offensive) and Blue Teaming (Defensive) ratings for every firm.
 - **283 Verified Live Career Pages / Portals:** Authenticated via automated HTTP validation and navigation crawling.
 - **111 Verified Direct HR / Executive Contacts:** Sourced from official Pakistan National CERT (PKCERT) audit empanelments, PTA registries, and verified hiring announcements.
 - **Zero Hallucinated Contacts:** Explicit `Contact Verification Status` so applicants never blast emails into non-existent mailboxes.
@@ -86,12 +86,12 @@ graph TD
 ### Red Teaming (Offensive Security)
 - **Relevant Roles:** Penetration Tester, Vulnerability Researcher, Web/API AppSec Specialist, Red Team Operator, Bug Bounty Hunter, Smart Contract Auditor.
 - **Top Certifications Valued:** OSCP, eJPT, CEH Practical, Burp Suite Certified Practitioner, PNPT.
-- **How to Filter:** Set `Red Teaming Rating` = `High` (Relevance Score: 8–10).
+- **How to Filter:** Set `Red Teaming Rating` = `High` (Relevance Score: 8-10).
 
 ### Blue Teaming (Defensive Security)
 - **Relevant Roles:** SOC Analyst (L1/L2/L3), Threat Intelligence Analyst, Incident Responder (DFIR), SIEM/SOAR Engineer, Security Architect, ISO 27001 / PCI QSA Auditor.
 - **Top Certifications Valued:** BTL1, CompTIA Security+, CySA+, Certified Threat Intelligence Analyst (CTIA), CISSP, CISA.
-- **How to Filter:** Set `Blue Teaming Rating` = `High` (Relevance Score: 8–10).
+- **How to Filter:** Set `Blue Teaming Rating` = `High` (Relevance Score: 8-10).
 
 ---
 
