@@ -17,3 +17,6 @@ Thumbs.db
 scratch/
 *.pdf
 *.txt
+*.eml
+email_drafts/
+gmail_draft_launcher.html
